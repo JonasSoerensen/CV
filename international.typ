@@ -17,14 +17,14 @@
             title[E-mail], link("mailto:ingerslev.jonas@gmail.com"),
             title[Phone Nr], link("tel:+45 29923971"),
             title[Address], link("https://goo.gl/maps/pTTcvM19ZNc2qP3w8")[Kollegiebakken 9, 802; Kongens Lyngby, 2800; Denmark],
-            title[LinkedIn], link("www.linkedin.com/in/jonas-sørensen-1b9ab1158"),
+            title[LinkedIn], link("www.linkedin.com/in/jonas-ingerslev-soerensen/"),
             
         ) 
     ], 
     ..section[PROFESSIONAL\ SUMMARY][
-        With AxVac acquired by Power Adhesives, I'm now pursuing new challenges in compiler construction, low-level programming, and system optimization. Further more, my management and entrepreneurial experince makes me a capable manager. 
-        
-        Personally, I am stoic, energetic; deeply value integrity and reflection. I have a strong passion for mentoring peers to help us all grow professionally and personally.
+        With AxVac acquired by Power Adhesives, I'm now pursuing new challenges in compiler construction, low-level programming, and system optimization. Furthermore, my extensive management and entrepreneurial experience qualifies me as a capable manager.
+
+        Personally, I am stoic and energetic, deeply valuing integrity and reflection. I have a strong passion for mentoring peers to foster professional and personal growth for all.
                 
     ],
     ..section[EXPERIENCE][
@@ -56,6 +56,7 @@
             columns: (0.30fr, 1fr),
             align: top,
             stroke: none,
+            inset: (y: 10pt),
             title[Erik Leo\ Vilmer Skeel], [
                 Chief Executive Director 
                 \ AxVac 

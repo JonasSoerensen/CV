@@ -13,13 +13,13 @@
 ) = {
   prop(
     inset: 3pt,
-    [], move(dx: -5pt)[
-        #prop(
+    [], move(dx: -5pt,
+        prop(
             columns: (auto),
             line(end: (0pt, 20pt)),
             title,
             line(end: (0pt, 20pt)),
-        )],
+        )),
   ..sections
   )
 }
