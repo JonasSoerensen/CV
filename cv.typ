@@ -24,13 +24,17 @@
   )
 }
 
+#let grey(..x) = {
+    text(fill:rgb("#7d92a1"), ..x)
+}
+
 #let section(
   title,
   content
 ) = {
   (
     align(alignment.right, text(weight: 800, tracking: 1pt, title)), line(length: 100%),
-    [], content,
+    [], grey(content),
   )
 
 }
