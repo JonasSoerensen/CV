@@ -32,11 +32,11 @@
 
         AxVac, once near bankruptcy, became a key supplier to major fiberglass manufacturers like _Vestas_ and _Siemens Gamesa_, reaching 2.9 million € in annual revenue before its acquisition. This success was driven by the Coat Weight Control (CWC) system, which reduced construction flaws by up to 90%.
 
-        #entry(title[Student programmer] + [\ _*Inniti* | Copenhagen, Denmark_], [*2021-2022*])
+        #entry(title[Software developer] + [\ _*Inniti* | Copenhagen, Denmark_], [*2021-2022*])
 
         At Inniti, I tackled the challenge of optimizing IoT equipment for experiment automation to handle high traffic. My role involved reducing inter-device communication, optimizing program performance, enhancing user experience, and expanding device compatibility.
 
-        #entry(title[Student programmer] + [\ _*Aviation Cloud \\ Boeing* | Odense, Denmark_], [*2018-2020*])
+        #entry(title[Software developer] + [\ _*Aviation Cloud \\ Boeing* | Odense, Denmark_], [*2018-2020*])
         
         Before being aquired by Boeing, Aviation Cloud serviced the foreflight app, providing pilots of private pilots with information rarely availabe on smaller aircraft. This included local flight plannnig and tower to plane communication, which I was responsible for.
     ],
