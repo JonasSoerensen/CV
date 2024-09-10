@@ -69,7 +69,7 @@
                 \ +4525717011
                 \ #link("https://www.linkedin.com/in/anderslundrasmussen/")]
             ,
-            title[Anders L\ Rasmussen], [
+            title[Henrik M\ Hansen], [
                 Vice President, Business & Military Aviation
                 \ Aviation Cloud 
                 \ +4525717011
