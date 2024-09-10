@@ -30,7 +30,7 @@
     ..section[EXPERIENCE][
         #entry(title[Chief technical director] + [\ _*AxVac* | Copenhagen, Denmark_], [*2020-2024*])
 
-        AxVac, once near bankruptcy, became a key supplier to major fiberglass manufacturers like _Vestas_ and _Siemens Gamesa_, reaching 2.9 million € in annual revenue before its acquisition. This success was driven by the Coat Weight Control (CWC) system, which reduced construction flaws by up to 90%.
+        AxVac, once near bankruptcy, became a key supplier to major fiberglass manufacturers like _Vestas_ and _Siemens Gamesa_, reaching 2.9 million € in annual revenue before its acquisition. The primary driver of this success was the elimination of up to 90% of production defects through the invention of the Coat Weight Control (CWC) system, an advanced image detection system of which I the lead designer and developer.
 
         #entry(title[Software developer] + [\ _*Inniti* | Copenhagen, Denmark_], [*2021-2022*])
 
@@ -69,7 +69,7 @@
                 \ +4525717011
                 \ #link("https://www.linkedin.com/in/anderslundrasmussen/")]
             ,
-            title[Herik M\ Hansen], [
+            title[Henrik M\ Hansen], [
                 Vice President, Business & Military Aviation
                 \ Aviation Cloud 
                 \ +4525717011

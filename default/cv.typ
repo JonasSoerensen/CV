@@ -1,4 +1,4 @@
-#import "cv.typ": *
+#import "../cv.typ": *
 #set page(paper: "a4", margin: 29pt)
 #set text(font:"Avenir")
 
@@ -22,15 +22,15 @@
         ) 
     ], 
     ..section[PROFESSIONAL\ SUMMARY][
-        With AxVac acquired by Power Adhesives, I'm now pursuing new challenges in compiler construction, low-level programming, and system optimization. Furthermore, my extensive management and entrepreneurial experience qualifies me as a capable manager.
+        With the acquisition of AxVac by Power Adhesives, I am now exploring new opportunities in compiler construction, low-level programming, and system optimization. My background in management and entrepreneurship has provided me with valuable experience in these areas.
 
-        Personally, I am stoic and energetic, deeply valuing integrity and reflection. I have a strong passion for mentoring peers to foster professional and personal growth for all.
+        On a personal note, I strive to be thoughtful and energetic, placing great importance on integrity and self-reflection. I am also enthusiastic about mentoring others to support their professional and personal development
                 
     ],
     ..section[EXPERIENCE][
         #entry(title[Chief technical director] + [\ _*AxVac* | Copenhagen, Denmark_], [*2020-2024*])
 
-        AxVac, once near bankruptcy, became a key supplier to major fiberglass manufacturers like _Vestas_ and _Siemens Gamesa_, reaching 2.9 million € in annual revenue before its acquisition. This success was driven by the Coat Weight Control (CWC) system, which reduced construction flaws by up to 90%.
+        AxVac, once near bankruptcy, became a key supplier to major fiberglass manufacturers like Vestas and Siemens Gamesa, reaching €2.9 million in annual revenue before its acquisition. This success was driven by the Coat Weight Control system, which I designed and developed, reducing production defects by up to 90%.
 
         #entry(title[Software developer] + [\ _*Inniti* | Copenhagen, Denmark_], [*2021-2022*])
 
@@ -45,6 +45,8 @@
         - Master thesis: _A programming language for computationel biochemistry_
         - Mostly focused on programming languages, optimization\ and design of computationel machines.
         - Winner of Lions den competition
+
+        \
 
         #entry(title[Bachelor of Computer Science] + [\ _*University of Southern Denmark* | Odense, Denmark_], [*2016-2020*])
         - Bachelor thesis: _A self programmable language_
