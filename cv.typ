@@ -1,5 +1,5 @@
 #let prop(..x) = {
-    table(
+    grid(
         columns: (auto, 1fr),
         align: horizon,
         stroke: none,
@@ -9,19 +9,26 @@
 
 #let cv(
   title,
+  picture,
   ..sections
 ) = {
+  let height = 20pt
   prop(
     inset: 3pt,
-    [], move(dx: -5pt,
-        prop(
-            columns: (auto),
-            line(end: (0pt, 20pt)),
-            title,
-            line(end: (0pt, 20pt)),
-        )),
-  ..sections
+    [], grid(
+      columns: (auto, 1fr),
+      rows: (height, 50pt, height),
+      align: horizon,
+
+      line(end: (0pt, height)),
+      grid.cell(rowspan: 3, align: right, picture),
+
+      title,
+      line(end: (0pt, height)),
+    ),
+    ..sections
   )
+  
 }
 
 #let grey(..x) = {
@@ -33,7 +40,7 @@
   content
 ) = {
   (
-    align(alignment.right, text(weight: 800, tracking: 1pt, title)), line(length: 100%),
+    align(alignment.right, text(weight: 500, tracking: 1pt, title)), line(length: 100%),
     [], grey(content),
   )
 

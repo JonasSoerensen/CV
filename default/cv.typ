@@ -1,6 +1,6 @@
 #import "../cv.typ": *
 #set page(paper: "a4", margin: 29pt)
-#set text(font:"Avenir")
+#set text(font:"Avenir LT Pro")
 
 #let title(..x) = {
     text(weight: 500, fill:rgb("#000000"), ..x)
@@ -9,6 +9,8 @@
 #cv(
     [#text(weight:600, 25pt, tracking:10pt, grey([JONAS]))
     \ #text(15pt, tracking:2pt, [INGERSLEV SØRENSEN])], 
+    image(fit:"contain", "../formal.jpg"),
+
     ..section([CONTACT INFO])[
         #table(
             columns: (0.25fr, 1fr),
@@ -18,40 +20,48 @@
             title[Phone Nr], link("tel:+45 29923971"),
             title[Address], link("https://goo.gl/maps/pTTcvM19ZNc2qP3w8")[Kollegiebakken 9, 802; Kongens Lyngby, 2800; Denmark],
             title[LinkedIn], link("www.linkedin.com/in/jonas-ingerslev-soerensen/"),
+            title[Github], link("https://github.com/JonasSoerensen"),
             
         ) 
     ], 
     ..section[PROFESSIONAL\ SUMMARY][
         With the acquisition of AxVac by Power Adhesives, I am now exploring new opportunities in compiler construction, low-level programming, and system optimization. My background in management and entrepreneurship has provided me with valuable experience in these areas.
 
-        On a personal note, I strive to be thoughtful and energetic, placing great importance on integrity and self-reflection. I am also enthusiastic about mentoring others to support their professional and personal development
-                
+        On a personal note, I strive to be thoughtful and energetic, placing great importance on integrity and self-reflection. I am also enthusiastic about mentoring others to support their professional and personal development.
+        \
+        \
     ],
     ..section[EXPERIENCE][
         #entry(title[Chief technical director] + [\ _*AxVac* | Copenhagen, Denmark_], [*2020-2024*])
 
-        AxVac, once near bankruptcy, became a key supplier to major fiberglass manufacturers like Vestas and Siemens Gamesa, reaching €2.9 million in annual revenue before its acquisition. This success was driven by the Coat Weight Control system, which I designed and developed, reducing production defects by up to 90%.
-
+        AxVac, which was on the brink of bankruptcy, evolved into a pivotal supplier for leading fiberglass manufacturers such as Vestas and Siemens Gamesa, achieving €2.9 million in annual revenue prior to its acquisition. This turnaround was largely driven by an innovative image recognition system, which I designed and developed, leading to a reduction in production defects by up to 90%.
+        
         #entry(title[Software developer] + [\ _*Inniti* | Copenhagen, Denmark_], [*2021-2022*])
 
-        At Inniti, I tackled the challenge of optimizing IoT equipment for experiment automation to handle high traffic. My role involved reducing inter-device communication, optimizing program performance, enhancing user experience, and expanding device compatibility.
+        At Inniti, I addressed the challenge of optimizing IoT equipment for experiment automation to manage high traffic volumes. My responsibilities included minimizing inter-device communication, enhancing program performance, improving user experience, and broadening device compatibility.
 
         #entry(title[Software developer] + [\ _*Aviation Cloud \\ Boeing* | Odense, Denmark_], [*2018-2020*])
         
-        Before being aquired by Boeing, Aviation Cloud serviced the foreflight app, providing pilots of private pilots with information rarely availabe on smaller aircraft. This included local flight plannnig and tower to plane communication, which I was responsible for.
+        Prior to its acquisition by Boeing, Aviation Cloud provided critical support for the ForeFlight app, delivering specialized information to private pilots that was typically unavailable for smaller aircraft. This encompassed local flight planning and tower-to-plane communication, areas for which I was directly responsible.
+        \
+        \
+        \
+        \
+        \
+        \
+        \
     ],
     ..section[EDUCATION][
         #entry(title[Master of Computer Science & Engineering] + [\ _*Technical University of Denmark* | Kongens Lyngby, Denmark_], [*2020-2023*])
         - Master thesis: _A programming language for computationel biochemistry_
         - Mostly focused on programming languages, optimization\ and design of computationel machines.
         - Winner of Lions den competition
-
-        \
-
+        
         #entry(title[Bachelor of Computer Science] + [\ _*University of Southern Denmark* | Odense, Denmark_], [*2016-2020*])
         - Bachelor thesis: _A self programmable language_
         - Graduated with Special Honours
         - Honours proposition : Optimization & performance techniques for the Lotto Problem\ a derivative of the Set Cover problem
+        \
     ],
     ..section([REFERNCES],
         table(
